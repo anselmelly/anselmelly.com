@@ -4,6 +4,9 @@ module.exports = {
   },
   theme: {
     extend: {
+      backgroundImage: theme => ({
+        'cover-photo': "url('./ansel_melly.jpg')"
+       }),
       colors: {
         orange: {
           500: "#ff3e00",
