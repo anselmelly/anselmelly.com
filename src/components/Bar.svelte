@@ -1,6 +1,6 @@
 <script>
     export let bg = "bg-yellow-200";
-    export let percentage = 0;
+    // export let percentage = 0;
     export let stars = 1;
 </script>
 
@@ -23,5 +23,5 @@
 </style>
 
 <div class="{bg} rounded-full pr-4 h-6 text-white aw-{stars}">
-    &nbsp;{percentage}%
+    &nbsp;
 </div>

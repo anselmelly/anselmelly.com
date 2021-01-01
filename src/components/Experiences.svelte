@@ -39,8 +39,8 @@
 <div
     class="py-10 xl:py-16 px-4 sm:px-6 lg:px-8 bg-white overflow-hidden"
     id={s_name}>
-    <div class="max-w-max lg:max-w-7xl mx-auto">
-        <div class="max-w-3xl mx-auto text-center">
+    <div class="max-w-7xl mx-auto">
+        <div class="max-w-xl mx-auto text-center">
             <a name="showcase">
                 <h2 class="text-3xl font-extrabold text-gray-900">
                     Experiences

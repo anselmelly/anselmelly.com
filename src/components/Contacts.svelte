@@ -2,7 +2,7 @@
     export let s_name = 's_contacts';
 </script>
 <div class="relative bg-white" id={s_name}>
-    <a name="contacts">&nbsp;</a>
+    
     <div class="absolute inset-0">
         <div class="absolute inset-y-0 left-0 w-1/2 bg-white" />
     </div>

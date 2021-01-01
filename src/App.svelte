@@ -11,18 +11,24 @@
 	import Experiences from "./components/Experiences.svelte";
 	import Testimonials from "./components/Testimonials.svelte";
 	import Meta from "./components/Meta.svelte";
+	import GetQuote from "./components/GetQuote.svelte";
+	import Fb from "./components/Fb.svelte";
 </script>
 
 <Meta />
+<Fb />
 <div class="mx-auto">
 	<Nav />
 	<Header />
 	<About />
 	<Services />
+
 	<Clients />
 	<ShowCase />
 	<Experiences />
+	
 	<Testimonials />
+	<GetQuote />
 	<Contacts />
 	<Footer />
 </div>
