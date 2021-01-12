@@ -20,8 +20,8 @@
         },
         {
             name: "Linux",
-            stars: 4,
-            bg: "bg-gray-800",
+            stars: 3,
+            bg: "bg-gray-600",
         },
         {
             name: "Javascript",

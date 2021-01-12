@@ -9,7 +9,7 @@
     <div class="relative max-w-7xl mx-auto lg:grid lg:grid-cols-5">
         <div
             class=" py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
-            <div class="max-w-lg mx-auto">
+            <div class="max-w-lg px-6 mx-auto">
                 <h2
                     class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
                     Get in touch
@@ -80,8 +80,8 @@
         </div>
         <div
             class="bg-white py-8 px-4 sm:px-6 lg:col-span-3 lg:py-12 lg:px-8 xl:pl-10">
-            <div class="max-w-lg lg:max-w-none">
-                <iframe
+            <div class="max-w-lg mx-auto lg:max-w-none">
+                <iframe class="block w-full"
                     src="https://docs.google.com/forms/d/e/1FAIpQLSda3r6fYBfg8LAnme6Mt5-Mmy-r3VDXRdzn6INUfRzc0Vo3Qw/viewform?embedded=true"
                     width="540"
                     height="720"

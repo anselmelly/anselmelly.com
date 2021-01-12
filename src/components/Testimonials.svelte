@@ -13,6 +13,12 @@
             'title':'Managing Director, Web Afriq',
             'text':'Projects are enjoyable when working with a skilled, talented, reliable problem solver. That is working with Ansel Melly'
         },
+        {
+            'name':"Vitalis K'omudho",
+            'url':'https://www.linkedin.com/in/vitalis-komudho-234b2658/',
+            'title':'CEO, Sienna Insurance',
+            'text':"Knowing Ansel over the last five years in our operations as an organization has made our life much easier on matters software development! An experienced & easy going chap who doesn't get annoyed regardless of the number of times his services may be required in a day! Ansel Melly, he is!"
+        }
     ]
 </script>
 <div class="bg-gray-900" id={s_name}>

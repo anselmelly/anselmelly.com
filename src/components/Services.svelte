@@ -3,18 +3,18 @@
     let services = [
         {
             title:"Website Development",
-            description:"Creating beatiful,intuitive and responsive websites to make you stand out online"
+            description:"Creating beautiful, intuitive and responsive websites to make you stand out online."
         },{
             title:"Website Management",
-            description:"Always on standby to keep your website up and running 99.9% of the time. Security updates and patches, troubleshooting and content management"
+            description:"Always on standby to keep your website up and running 99.9% of the time: Security updates and patches, troubleshooting, and content management."
         },
         {
             title:"Software Development",
-            description:"Developing cloud applications to enable you engage with your clients in realtime from anywhere"
+            description:"Developing cloud applications to enable you engage with your clients realtime from anywhere."
         },
         {
             title:"Technical support",
-            description:"I offer advice or guide your technical team on how to troubleshoot your website and we'll have you running in no time"
+            description:"Technical advice or guidance for your technical team on how to troubleshoot your website/tech stack and have you running in no time."
         }
     ];
 </script>
@@ -27,7 +27,7 @@
                 The Services
             </h2>
             <p class="mt-4 text-lg text-gray-300">
-               I provide an [array] of services tailored at ensuring you standout online, e.g. blogging, ecommerce or just simple static website
+                I provide an array of services tailored to ensuring you standout online, e.g. blogging, e-commerce or a simple static website.
             </p>
         </div>
         <dl class="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-1 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-2 lg:gap-x-8">

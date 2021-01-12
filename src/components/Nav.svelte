@@ -2,6 +2,7 @@
 <script>
     import Logo from "./Logo.svelte";
     import * as animateScroll from "svelte-scrollto";
+    import { fade } from 'svelte/transition';
     $: isOpen = false;
     let menus = [
         {
@@ -48,7 +49,6 @@
             <button
                 on:click={() => {
                     isOpen = true;
-                    console.log(isOpen);
                 }}
                 type="button"
                 class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -95,6 +95,8 @@
         To: "opacity-0 scale-95"
     -->
     <div
+    in:fade="{{duration:200}}"
+    out:fade="{{duration:100}}"
         class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden {isOpen ? 'visible' : 'invisible'}">
         <div
             class="shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
@@ -107,7 +109,6 @@
                         <button
                             on:click={() => {
                                 isOpen = false;
-                                console.log(isOpen);
                             }}
                             type="button"
                             class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">

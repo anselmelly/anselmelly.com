@@ -34,8 +34,7 @@
 <footer class="bg-gray-900">
   <div
     class="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
-    <div class="flex justify-center space-x-6 md:order-2">
-      
+    <div class="flex justify-center space-x-6 md:order-1">
       {#each socials as social}
         <a
           href={social.link}
@@ -52,12 +51,17 @@
         </a>
       {/each}
     </div>
-    <div
-        class="fb-like text-white text-center"
-        data-share="true"
-        data-width="450"
-        data-show-faces="true" />
-    <div class="mt-8 md:mt-0 md:order-1">
+    <div class="mt-8 md:mt-0 md:order-2 text-center">
+      <div
+        class="fb-like"
+        data-href="https://anselmelly.com"
+        data-width="250"
+        data-layout="button"
+        data-action="like"
+        data-size="small"
+        data-share="true" />
+    </div>
+    <div class="mt-8 md:mt-0 md:order-3">
       <p class="text-center text-base text-gray-300">
         &copy;
         {year}

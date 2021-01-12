@@ -1,5 +1,5 @@
 <script>
-    export let s_name = 's_showcase';
+    export let s_name = "s_showcase";
     let showcase = [
         {
             name: "NCBA Group",
@@ -38,7 +38,9 @@
             {#each showcase as scase}
                 <div
                     class="flex flex-col items-center p-5 bg-gray-900 text-gray-300">
-                    <img alt="" src="./showcase/{scase.image}" />
+                    <a href={scase.url} alt={scase.name}>
+                        <img alt="" src="./showcase/{scase.image}" />
+                    </a>
                     <p class="pt-5">
                         <a href={scase.url} target="_blank">{scase.name}</a>
                     </p>

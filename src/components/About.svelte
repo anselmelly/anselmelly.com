@@ -82,7 +82,7 @@
                     <div
                         class="prose prose-indigo prose-lg text-gray-900 lg:max-w-none text-center md:text-left">
                         <p class="text-lg">
-                            I am Senior soft || web + developer with a great
+                            I am senior software and web applications consultant with a great
                             deal of experience in converting ideas to usable
                             applications.
                         </p>
@@ -97,25 +97,24 @@
                                 target="_blank">wordpress</a>,<a
                                 href="https://symfony.com/"
                                 target="_blank">symphony</a>
-                            and anything php really...
+                            and anything php.
                         </p>
 
                         <p class="text-lg">
                             I can handle javascript pretty well "I am still
-                            learning" with "svelte and nodejs" FYI I can hold my
-                            own
+                            learning though" with "<a href="https://svelte.dev/" alt="Svelte">svelte</a> and nodejs"
                         </p>
 
                         <p class="text-lg">
                             I am a proponent of
-                            <em><b>"small applications + great impact"</b></em>
-                            types of applications e.g user blogs and sme
-                            ecommerce applications. This does not imply that i
+                            <em><b class="text-indigo-600">"small applications + great impact"</b></em>
+                            types of applications e.g user profile, blogs and sme
+                            e-commerce applications. This does not imply that I
                             am against enterprise ;)
                         </p>
 
                         <p class="text-lg">
-                            On my spare time I ride my mountain bike discovering
+                            On my spare time I ride a mountain bike discovering
                             the coffee houses in my locale "Blog coming soon"
                         </p>
                     </div>
